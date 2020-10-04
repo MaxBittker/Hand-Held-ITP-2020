@@ -105,9 +105,9 @@ function downloadZip(url, localPath) {
         html{
           overflow-x: hidden;
         }
-          * {
-          font-family: 'Merriweather', sans-serif;
-          }
+        h1, h2, h3, h4, h5 {
+        font-family: 'Merriweather', sans-serif;
+        }
         </style>`;
         let payload = charset + viewportMeta + fontTag + style;
         let newHTML = currentHTML.replace(charset, payload);
