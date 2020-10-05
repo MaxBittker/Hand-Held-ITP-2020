@@ -1,6 +1,9 @@
 #!/bin/bash
 
-cd builder/ 
+cd "$(dirname "$0")"
+
+cd builder
+
 npm run build 
 cd .. 
 git add -A 
